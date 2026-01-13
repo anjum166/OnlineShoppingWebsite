@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> My shopping Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="cssstyle.css">
+    <!--"https://use.fontawesome.com/releases/v5.15.4/css/all.css"-->
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logoof.jpeg" class="logoof" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="HTML.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="blog.html">blog</a></li>
+               
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i>
+                </a></li>
+                <a href="#" id="close"><i class="far fa-times"></i>
+                </a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            
+            <li><a href="cart.html"><i class="far fa-shopping-bag"></i></li></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="cart-header">
+        <h2>#Our Shopping</h2>
+        <p>Add more items in your cart!!!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" width="100" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>Rs.480</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.480</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f8.jpg" width="100" alt=""></td>
+                    <td>mermolot</td>
+                    <td>Rs.900</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.900</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" width="100" alt=""></td>
+                    <td>adidas</td>
+                    <td>Rs.540</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.540</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/n1.jpg" width="100" alt=""></td>
+                    <td>xmark</td>
+                    <td>Rs.500</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.500</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" width="100" alt=""></td>
+                    <td>maxman</td>
+                    <td>Rs.600</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.600</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/th (20).jpeg" width="100" alt=""></td>
+                    <td>nyratyfe</td>
+                    <td>Rs.440</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.440</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f4.jpg" width="100" alt=""></td>
+                    <td>alfasonta</td>
+                    <td>Rs.760</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.760</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f5.jpg" width="100" alt=""></td>
+                    <td>Prokontat raolot</td>
+                    <td>Rs.340</td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>Rs.340</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon";>
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals:</h3>
+            
+            <table>
+                <tr>
+                    <td>Cart SubTotal </td>
+                    <td>   Rs.3500</td>
+                </tr>
+                <tr>
+                    <td>shipping</td>
+                    <td>Free</td>
+                    
+                </tr>
+                <tr>
+                    <td><strong><br>Total</strong></td>
+                    <td><strong><br>Rs. 3500</strong><br></td>
+                </tr>
+                <br>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+        
+    </section>
+  
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logoof" src="img/logoof.png" alt="">
+            <h4>contact</h4>
+            <p><strong>Address: </strong> 562 Hadapsar,street 32 ,JSCOE,Pune</p>
+            <p><strong>Phone:</strong> +65 357 998 73/(+91) 96 996 692 99</p>
+            <p><strong>Hours:</strong>9:00-18:00,Mon - sat</p>
+            <div class="follow">
+                <h4> Follow Us </h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            
+            </div> 
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Private Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">view Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+        
+    
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/pay/pay.png" alt="">
+            
+        </div>
+
+        <div class="copyright">
+            <p>@ 2024,Technical etc-MY shopping website</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
